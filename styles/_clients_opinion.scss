@@ -1,0 +1,91 @@
+.clients_opinion {
+    padding-bottom: 120px;
+
+    .container {
+        .clients_opinion__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            color: #003C68;
+            text-align: center;
+            margin-bottom: 78px;
+        }
+
+        .clients_opinion__wrapper {
+            padding: 36px 84px 0 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            background: #FFFFFF;
+            box-shadow: 0px 15px 40px -1px rgba(0, 0, 0, 0.1);
+
+            .clients_opinion_content {
+                width: 43%;
+
+                img {
+                    width: 56px;
+                    margin-bottom: 28px;
+                }
+
+                .content_description {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #003C68;
+                    opacity: 0.7;
+                    margin-bottom: 49px;
+                }
+
+                .content_name {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 26px;
+                    color: #003C68;
+                }
+            }
+
+            .clients_opinion_img {
+                img {
+                    vertical-align: middle;
+                }
+
+                width: 43%;
+
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .clients_opinion {
+        padding-bottom: 60px;
+
+        .container {
+            .clients_opinion__title {
+                font-size: 28px;
+                line-height: 34px;
+                margin-bottom: 74px;
+            }
+
+            .clients_opinion__wrapper {
+                padding: 16px 21px 0 20px;
+                flex-direction: column;
+                row-gap: 50px;
+                .clients_opinion_content{
+                    width: 100%;
+                }
+                .clients_opinion_img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.contact_us {
+    padding: 420px 0 60px;
+    background-image: url(../images/Rectangle\ 42.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .container {
+
+
+        .contact_us__title {
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+            margin-bottom: 28px;
+            text-align: center;
+        }
+
+        .contact_us_wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 30px;
+
+
+            input {
+                padding: 24px 259px 24px 30px;
+                background: #FFFFFF;
+                border-radius: 3px;
+                border: none;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: #003C68;
+
+
+            }
+
+
+
+            .sending {
+                padding: 23px 124px 23px;
+                display: flex;
+                text-align: center;
+                column-gap: 16.54px;
+                background-color: #E29500;
+                border-radius: 3px;
+                border: none;
+                transition: 0.3s;
+                cursor: pointer;
+                text-align: center;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+
+                }
+
+                p {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #FFFFFF;
+                }
+            }
+
+            button:hover {
+                background-color: #ffffffaa;
+            }
+
+            .sending:hover {
+                background-color: #e29700c9;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .contact_us {
+        padding: 414px 0 35px;
+
+        .container {
+            .contact_us_wrapper {
+                flex-direction: column;
+                margin: 0 auto;
+                row-gap: 20px;
+ 
+                input{
+                    width: 100%;
+                }
+                .sending{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}

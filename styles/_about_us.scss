@@ -1,0 +1,72 @@
+.about_us {
+    padding: 107px 0;
+    background-image: url(./../images/Rectangle\ 9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+        .about_us__card {
+            width: 47%;
+            padding: 65px 60px;
+            background-color: #00000069;
+
+            .about_us-title {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 39px;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+            }
+
+            .about_us-description {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FFFFFF;
+                opacity: 0.6;
+                margin-bottom: 30px;
+            }
+
+            .intro_btn {
+                display: flex;
+                align-items: center;
+                column-gap: 12px;
+                background-color: transparent;
+                border: 0;
+
+                span {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:576px) {
+    .about_us{
+        background-image: url(../images/Rectangle\ 9\ \(2\).jpg);
+        padding: 40px 0 166px;
+        .container{
+            .about_us__card{
+               width: 100%;
+               padding: 50px 20px;
+               .about_us-title{
+                font-size: 28px;
+line-height: 34px;
+               } 
+               .about_us-description{
+                margin-bottom: 25px;
+               }
+            }
+        }
+    }
+}

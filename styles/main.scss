@@ -1,0 +1,65 @@
+
+
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+
+.line_centered{
+    position: relative;
+   
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background-image: url(../images/Group\ 52.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 175px;
+    }
+}
+.line__left{
+    position: relative;
+   
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background-image: url(../images/Group\ 52.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 175px;
+    }
+}
+@media screen and (max-width:576px) {
+    .container{
+        width: 90%;
+    }
+    
+}
+
+
+@import "header";
+@import "about_us";
+@import "why_us";
+@import "our_projects";
+@import "clients_opinion";
+@import "contact_us";
+@import "footer";
